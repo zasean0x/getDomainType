@@ -6,4 +6,4 @@ read username
 echo "Enter the secret API key (Note: remember to delete this key afterwards)"
 read apiKey
 
-curl -H "Authorization: whm $username:$apiKey" "$url:2087/json-api/get_domain_info?api.version=1" | jq '.data.domains[] | "\(.parent_domain) \(.domain_type)"'
+curl -H "Authorization: whm $username:$apiKey" "$url:2087/json-api/get_domain_info?api.version=1" | jq '.data.domains[] | "\(.parent_domain) \(.domain) \(.domain_type)"'
