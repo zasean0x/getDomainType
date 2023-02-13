@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Enter the server's url (Example: https://example.com )"
 read url
-echo "Enter the server's username (Reseller or root)"
+echo "Enter the server's username (Reseller account name or root)"
 read username
 echo "Enter the secret API key (Note: remember to delete this key afterwards)"
 read apiKey
