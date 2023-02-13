@@ -1,7 +1,7 @@
 #!/bin/bash
 # Argument Edition
 echo "./getDomainType-args.sh (username) (api key) (url)"
-echo "./getDomainType-args.sh sean r43rjuht43t8338 https://example.com
+echo "./getDomainType-args.sh sean r43rjuht43t8338 https://example.com"
 username=$0
 apiKey=$1
 url=$2
