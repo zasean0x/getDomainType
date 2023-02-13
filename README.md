@@ -13,3 +13,7 @@ You can run the script from anywhere - however you will need jq installed.
 Prompts for url, username, api key
 
 bash <(curl -s https://raw.githubusercontent.com/zasean0x/getDomainType/main/getDomainType.sh)
+
+If you'd like a cli argument version:
+
+bash -c "$(curl https://raw.githubusercontent.com/zasean0x/getDomainType/main/getDomainType-args.sh )"  username apiSecret https://example.com
