@@ -12,4 +12,4 @@ You can run the script from anywhere - however you will need jq installed.
 
 Prompts for url, username, api key
 
-bash <(curl -s )
+bash <(curl -s https://raw.githubusercontent.com/zasean0x/getDomainType/main/getDomainType.sh)
